@@ -20,8 +20,9 @@ class HomeViewController: UIViewController,PageTitleViewDelegate,PageContentView
     }()
     lazy var pageContentView:PageContentView = {
         var childVC = [UIViewController]()
+        childVC.append(RecommendViewController())
         //循环添加子视图控制器
-        for i in 0..<4{
+        for i in 0..<3{
             let vc = UIViewController()
             vc.view.backgroundColor = UIColor.init(r: 50*CGFloat(i), g: 100, b: 150)
             childVC.append(vc)

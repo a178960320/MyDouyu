@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195BE18389A0DF20A25A7963 /* Pods_Douyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D7D7085F7BED51B26C907E /* Pods_Douyu.framework */; };
 		781EC9581E5FEBB7000F95C2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781EC9561E5FEBB7000F95C2 /* Home.storyboard */; };
 		781EC95A1E5FEBF9000F95C2 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781EC9591E5FEBF9000F95C2 /* Live.storyboard */; };
 		781EC95D1E5FEC11000F95C2 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781EC95B1E5FEC11000F95C2 /* Follow.storyboard */; };
@@ -18,12 +19,24 @@
 		781EC9741E601184000F95C2 /* UniversallyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781EC9731E601184000F95C2 /* UniversallyConstant.swift */; };
 		781EC9761E602BAE000F95C2 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781EC9751E602BAE000F95C2 /* PageContentView.swift */; };
 		781EC9781E602DBD000F95C2 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781EC9771E602DBD000F95C2 /* UIColor-Extension.swift */; };
+		782929C31E6672FC00AB96CF /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782929C21E6672FC00AB96CF /* BaseCollectionViewCell.swift */; };
+		782929C51E66968100AB96CF /* HomeLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782929C41E66968100AB96CF /* HomeLiveViewController.swift */; };
 		787333B71E5FD9C600575559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787333B61E5FD9C600575559 /* AppDelegate.swift */; };
 		787333BC1E5FD9C600575559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787333BA1E5FD9C600575559 /* Main.storyboard */; };
 		787333BE1E5FD9C600575559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787333BD1E5FD9C600575559 /* Assets.xcassets */; };
 		787333C11E5FD9C600575559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787333BF1E5FD9C600575559 /* LaunchScreen.storyboard */; };
 		787333CC1E5FD9C600575559 /* DouyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787333CB1E5FD9C600575559 /* DouyuTests.swift */; };
 		787333D71E5FD9C600575559 /* DouyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787333D61E5FD9C600575559 /* DouyuUITests.swift */; };
+		78CE2F451E65084E00B09FB4 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F441E65084E00B09FB4 /* RecommendViewController.swift */; };
+		78CE2F481E65154000B09FB4 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F461E65154000B09FB4 /* HeaderCollectionReusableView.swift */; };
+		78CE2F491E65154000B09FB4 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CE2F471E65154000B09FB4 /* HeaderCollectionReusableView.xib */; };
+		78CE2F4D1E65187900B09FB4 /* NormalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F4B1E65187900B09FB4 /* NormalCollectionViewCell.swift */; };
+		78CE2F4E1E65187900B09FB4 /* NormalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CE2F4C1E65187900B09FB4 /* NormalCollectionViewCell.xib */; };
+		78CE2F511E651CF800B09FB4 /* PrettyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F4F1E651CF800B09FB4 /* PrettyCollectionViewCell.swift */; };
+		78CE2F521E651CF800B09FB4 /* PrettyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CE2F501E651CF800B09FB4 /* PrettyCollectionViewCell.xib */; };
+		78CE2F541E6546DF00B09FB4 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F531E6546DF00B09FB4 /* NetWorkTools.swift */; };
+		78CE2F571E65511C00B09FB4 /* RecommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F561E65511C00B09FB4 /* RecommentViewModel.swift */; };
+		78CE2F591E655EEF00B09FB4 /* AnchorGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE2F581E655EEF00B09FB4 /* AnchorGroupModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EC198438A71AD53A36EC28 /* Pods-Douyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu/Pods-Douyu.release.xcconfig"; sourceTree = "<group>"; };
+		70149DC21B1600D54A1B4AD2 /* Pods_DouyuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		781EC9571E5FEBB7000F95C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		781EC9591E5FEBF9000F95C2 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
 		781EC95C1E5FEC11000F95C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
@@ -55,6 +70,8 @@
 		781EC9731E601184000F95C2 /* UniversallyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversallyConstant.swift; sourceTree = "<group>"; };
 		781EC9751E602BAE000F95C2 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		781EC9771E602DBD000F95C2 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		782929C21E6672FC00AB96CF /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		782929C41E66968100AB96CF /* HomeLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLiveViewController.swift; sourceTree = "<group>"; };
 		787333B31E5FD9C600575559 /* Douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787333B61E5FD9C600575559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787333BB1E5FD9C600575559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +84,20 @@
 		787333D21E5FD9C600575559 /* DouyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787333D61E5FD9C600575559 /* DouyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuUITests.swift; sourceTree = "<group>"; };
 		787333D81E5FD9C600575559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CE2F441E65084E00B09FB4 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		78CE2F461E65154000B09FB4 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		78CE2F471E65154000B09FB4 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		78CE2F4B1E65187900B09FB4 /* NormalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalCollectionViewCell.swift; sourceTree = "<group>"; };
+		78CE2F4C1E65187900B09FB4 /* NormalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCollectionViewCell.xib; sourceTree = "<group>"; };
+		78CE2F4F1E651CF800B09FB4 /* PrettyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyCollectionViewCell.swift; sourceTree = "<group>"; };
+		78CE2F501E651CF800B09FB4 /* PrettyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrettyCollectionViewCell.xib; sourceTree = "<group>"; };
+		78CE2F531E6546DF00B09FB4 /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		78CE2F561E65511C00B09FB4 /* RecommentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommentViewModel.swift; sourceTree = "<group>"; };
+		78CE2F581E655EEF00B09FB4 /* AnchorGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroupModel.swift; sourceTree = "<group>"; };
+		78CE2F5A1E6562AF00B09FB4 /* Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Briding-Header.h"; sourceTree = "<group>"; };
+		9C5638261BC440B67FDD5FD1 /* Pods-Douyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douyu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douyu/Pods-Douyu.debug.xcconfig"; sourceTree = "<group>"; };
+		AA08EC9CC999455998C453CC /* Pods_DouyuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D7D7085F7BED51B26C907E /* Pods_Douyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Douyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195BE18389A0DF20A25A7963 /* Pods_Douyu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +126,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		256449F2F7F359EE8C240224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C5638261BC440B67FDD5FD1 /* Pods-Douyu.debug.xcconfig */,
+				09EC198438A71AD53A36EC28 /* Pods-Douyu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		723DD5D67C87A99D25523C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D7D7085F7BED51B26C907E /* Pods_Douyu.framework */,
+				70149DC21B1600D54A1B4AD2 /* Pods_DouyuTests.framework */,
+				AA08EC9CC999455998C453CC /* Pods_DouyuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		781EC94F1E5FDF22000F95C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +169,7 @@
 		781EC9511E5FDF22000F95C2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				78CE2F551E65510500B09FB4 /* ViewModel */,
 				781EC9651E5FEF01000F95C2 /* Model */,
 				781EC9661E5FEF01000F95C2 /* View */,
 				781EC9641E5FEF01000F95C2 /* Controller */,
@@ -156,6 +208,8 @@
 			children = (
 				781EC96E1E5FFE2F000F95C2 /* Extension */,
 				781EC9731E601184000F95C2 /* UniversallyConstant.swift */,
+				78CE2F531E6546DF00B09FB4 /* NetWorkTools.swift */,
+				78CE2F5A1E6562AF00B09FB4 /* Briding-Header.h */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -165,6 +219,8 @@
 			children = (
 				781EC9561E5FEBB7000F95C2 /* Home.storyboard */,
 				781EC9671E5FEF23000F95C2 /* HomeViewController.swift */,
+				78CE2F441E65084E00B09FB4 /* RecommendViewController.swift */,
+				782929C41E66968100AB96CF /* HomeLiveViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +235,8 @@
 		781EC9661E5FEF01000F95C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78CE2F461E65154000B09FB4 /* HeaderCollectionReusableView.swift */,
+				78CE2F471E65154000B09FB4 /* HeaderCollectionReusableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +253,7 @@
 		781EC96B1E5FEF9B000F95C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				78CE2F581E655EEF00B09FB4 /* AnchorGroupModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +263,11 @@
 			children = (
 				781EC9711E600F31000F95C2 /* PageTitleView.swift */,
 				781EC9751E602BAE000F95C2 /* PageContentView.swift */,
+				78CE2F4B1E65187900B09FB4 /* NormalCollectionViewCell.swift */,
+				78CE2F4C1E65187900B09FB4 /* NormalCollectionViewCell.xib */,
+				78CE2F4F1E651CF800B09FB4 /* PrettyCollectionViewCell.swift */,
+				78CE2F501E651CF800B09FB4 /* PrettyCollectionViewCell.xib */,
+				782929C21E6672FC00AB96CF /* BaseCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +288,8 @@
 				787333CA1E5FD9C600575559 /* DouyuTests */,
 				787333D51E5FD9C600575559 /* DouyuUITests */,
 				787333B41E5FD9C600575559 /* Products */,
+				256449F2F7F359EE8C240224 /* Pods */,
+				723DD5D67C87A99D25523C2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,6 +333,14 @@
 			path = DouyuUITests;
 			sourceTree = "<group>";
 		};
+		78CE2F551E65510500B09FB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78CE2F561E65511C00B09FB4 /* RecommentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 787333DB1E5FD9C600575559 /* Build configuration list for PBXNativeTarget "Douyu" */;
 			buildPhases = (
+				C661C848773DFA95660E5547 /* [CP] Check Pods Manifest.lock */,
 				787333AF1E5FD9C600575559 /* Sources */,
 				787333B01E5FD9C600575559 /* Frameworks */,
 				787333B11E5FD9C600575559 /* Resources */,
+				3D569A980E3401ED31CA3AB3 /* [CP] Embed Pods Frameworks */,
+				EBD519A124067197A006E91B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,9 +454,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CE2F521E651CF800B09FB4 /* PrettyCollectionViewCell.xib in Resources */,
+				78CE2F491E65154000B09FB4 /* HeaderCollectionReusableView.xib in Resources */,
 				787333C11E5FD9C600575559 /* LaunchScreen.storyboard in Resources */,
 				787333BE1E5FD9C600575559 /* Assets.xcassets in Resources */,
 				787333BC1E5FD9C600575559 /* Main.storyboard in Resources */,
+				78CE2F4E1E65187900B09FB4 /* NormalCollectionViewCell.xib in Resources */,
 				781EC95A1E5FEBF9000F95C2 /* Live.storyboard in Resources */,
 				781EC9581E5FEBB7000F95C2 /* Home.storyboard in Resources */,
 				781EC95F1E5FEC21000F95C2 /* Profile.storyboard in Resources */,
@@ -403,19 +483,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D569A980E3401ED31CA3AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douyu/Pods-Douyu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C661C848773DFA95660E5547 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD519A124067197A006E91B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Douyu/Pods-Douyu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		787333AF1E5FD9C600575559 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CE2F511E651CF800B09FB4 /* PrettyCollectionViewCell.swift in Sources */,
 				781EC96D1E5FEF9B000F95C2 /* MainViewController.swift in Sources */,
+				782929C51E66968100AB96CF /* HomeLiveViewController.swift in Sources */,
 				781EC9781E602DBD000F95C2 /* UIColor-Extension.swift in Sources */,
+				78CE2F451E65084E00B09FB4 /* RecommendViewController.swift in Sources */,
 				787333B71E5FD9C600575559 /* AppDelegate.swift in Sources */,
+				78CE2F541E6546DF00B09FB4 /* NetWorkTools.swift in Sources */,
 				781EC9741E601184000F95C2 /* UniversallyConstant.swift in Sources */,
 				781EC9761E602BAE000F95C2 /* PageContentView.swift in Sources */,
 				781EC9721E600F31000F95C2 /* PageTitleView.swift in Sources */,
+				782929C31E6672FC00AB96CF /* BaseCollectionViewCell.swift in Sources */,
 				781EC9681E5FEF23000F95C2 /* HomeViewController.swift in Sources */,
+				78CE2F4D1E65187900B09FB4 /* NormalCollectionViewCell.swift in Sources */,
+				78CE2F591E655EEF00B09FB4 /* AnchorGroupModel.swift in Sources */,
+				78CE2F481E65154000B09FB4 /* HeaderCollectionReusableView.swift in Sources */,
 				781EC9701E5FFE57000F95C2 /* UIBarButtonItem-Extension.swift in Sources */,
+				78CE2F571E65511C00B09FB4 /* RecommentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +719,7 @@
 		};
 		787333DC1E5FD9C600575559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5638261BC440B67FDD5FD1 /* Pods-Douyu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -591,12 +729,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiongjiwuxian.Douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhumengios/Desktop/douyu/MyDouyu/Douyu/Douyu/Classes/Tools/Briding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		787333DD1E5FD9C600575559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EC198438A71AD53A36EC28 /* Pods-Douyu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -606,6 +746,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiongjiwuxian.Douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhumengios/Desktop/douyu/MyDouyu/Douyu/Douyu/Classes/Tools/Briding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

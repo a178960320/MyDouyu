@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HeaderCollectionReusableView" customModule="Douyu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcX-pO-LPq">
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Ads-Pq-xjk"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_header_hot" translatesAutoresizingMaskIntoConstraints="NO" id="lTx-My-cLb">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="0vY-fg-BKb"/>
+                        <constraint firstAttribute="width" constant="18" id="pb8-Ob-DXb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最热" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9F-IE-GbJ">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cm-M1-hj0">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="OSg-DV-q5K"/>
+                    </constraints>
+                    <state key="normal" title="更多 &gt;">
+                        <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4Cm-M1-hj0" secondAttribute="trailing" constant="10" id="7Ua-v9-tC5"/>
+                <constraint firstAttribute="bottom" secondItem="4Cm-M1-hj0" secondAttribute="bottom" constant="5" id="G1i-u9-5TE"/>
+                <constraint firstItem="t9F-IE-GbJ" firstAttribute="leading" secondItem="lTx-My-cLb" secondAttribute="trailing" constant="10" id="GIo-2d-uSW"/>
+                <constraint firstItem="lTx-My-cLb" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="10" id="SoE-az-u4h"/>
+                <constraint firstItem="qcX-pO-LPq" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="ayv-kQ-IJl"/>
+                <constraint firstItem="lTx-My-cLb" firstAttribute="top" secondItem="qcX-pO-LPq" secondAttribute="bottom" constant="11" id="bMd-BT-fZ1"/>
+                <constraint firstAttribute="trailing" secondItem="qcX-pO-LPq" secondAttribute="trailing" id="cbS-k2-PBJ"/>
+                <constraint firstItem="t9F-IE-GbJ" firstAttribute="centerY" secondItem="lTx-My-cLb" secondAttribute="centerY" id="dZc-Qf-OZa"/>
+                <constraint firstItem="4Cm-M1-hj0" firstAttribute="top" secondItem="qcX-pO-LPq" secondAttribute="bottom" constant="5" id="oYj-Uw-PoQ"/>
+                <constraint firstItem="qcX-pO-LPq" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="vU9-2a-3Q2"/>
+            </constraints>
+            <connections>
+                <outlet property="iconImageView" destination="lTx-My-cLb" id="vdo-BN-1gx"/>
+                <outlet property="titleLabel" destination="t9F-IE-GbJ" id="Cqc-u5-FFk"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="home_header_hot" width="18" height="18"/>
+    </resources>
+</document>
